@@ -1,0 +1,42 @@
+.colored {
+    background-color: lightgreen;
+}
+
+.jumbotron-extend {
+    text-align: center;
+    background: linear-gradient(135deg, rgba(103, 255, 255, 0.8), rgba(40,40,128,0.8)), url('../image/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-gradient {
+    background: linear-gradient(135deg, rgb(104, 208, 0), rgb(0, 203, 118));
+    border-color: rgb(104, 208, 0);
+}
+
+.wf-mplus1p {
+    font-family: "Mplus 1p";
+}
+
+/*.gradient-border:before,*/
+.gradient-border:after {
+    content:"";
+    display:block;
+    margin: auto;
+    margin-top: 15px;
+    height:3px;
+    width:40vw;
+	background:-webkit-gradient(linear, left top, right bottom, from(#f00), to(#00f));
+	background:-moz-linear-gradient(left, #f00, #00f);
+	background:linear-gradient(left, #f00, #00f);
+}
+
+p {
+    line-height: 2em;
+    text-align: justify;
+}
+
+#sticky-sidebar {
+    position:fixed;
+    right:0;
+}
