@@ -4,7 +4,7 @@
 - Laravel:5.6
 - mysql:5.7 (これから導入)
 
-## インストール時
+## クローン時
 ```
 git clone https://github.com/team-burgundy/logican.git
 ```
