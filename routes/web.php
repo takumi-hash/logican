@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('index');
 });
+Route::get('loggedin_user_top', function () {
+    return view('loggedin_user_top');
+});
 Route::get('register', function () {
     return view('register');
 });
@@ -25,4 +28,7 @@ Route::get('dashboard', function () {
 });
 Route::get('content', function () {
     return view('content');
+});
+Route::get('profile_setting', function () {
+    return view('profile_setting');
 });
