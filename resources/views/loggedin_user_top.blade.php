@@ -1,6 +1,6 @@
 @extends('layouts.common')
 
-@section('title', 'Lesson 1-1. MECEを知る | LogiCan')
+@section('title', 'Home')
 @section('keywords', 'A,B,C')
 @section('description', '説明文')
 @section('pageCss')
