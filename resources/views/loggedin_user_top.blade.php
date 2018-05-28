@@ -15,22 +15,22 @@
 
 @section('content')
 <div class="container my-5">
-    <h2 class="text-center wf-mplus1p mb-4 gradient-border">Lesson 1-1. MECEを知る</h2>
+    <h2 class="text-center wf-mplus1p mb-4 gradient-border">おかえりなさい</h2>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner">
+        <div class="carousel-inner my-5">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/image/card1.jpg" alt="First slide">
+                <img class="d-block w-100" src="/image/card1_wide.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/image/card2.jpg" alt="Second slide">
+                <img class="d-block w-100" src="/image/card2_wide.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/image/card3.jpg" alt="Third slide">
+                <img class="d-block w-100" src="/image/card3_wide.jpg" alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -42,30 +42,60 @@
     <span class="sr-only">Next</span>
     </a>
     </div>
+
     <div class="row">
-        <div class="col-lg-9 offset-lg-1">
-            <h2>MECEとは</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p><img src="/image/card1.jpg" class="img-fluid" alt="Responsive image"></p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <h2>Heading 2</h2>
-            <h3>Heading 3</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="col-lg-4">
+            <div class="card my-3">
+                <img class="card-img-top" src="/image/card1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">1-1. MECEを知る</h5>
+                    <p class="card-text">MECEとは“Mutually Exclusive, Collectively Exhaustive”を略したもので、『モレなくダブりなく』を意味します。</p>
+                    <a href="#" class="btn btn-dark text-light">完了</a>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-2">
-            <div class="card position-fixed">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                </ul>
+        <div class="col-lg-4">
+            <div class="card my-3">
+                <img class="card-img-top" src="/image/card2.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">1-2. ロジックツリーの基本</h5>
+                    <p class="card-text">ロジックツリーはレッスン1-1で学んだMECEを活用し、問題の原因や解決策の深掘りに利用できます。</p>
+                    <a href="#" class="btn btn-primary">受講する</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card my-3">
+                <img class="card-img-top" src="/image/card3.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">1-3. 現状の特性をデータから把握する</h5>
+                    <p class="card-text">ケース問題において、与えられた情報から現状を素早く把握する力が不可欠です。一見雑多に見えるデータをうまく可視化するテクニックを見ていきましょう。</p>
+                    <a href="#" class="btn btn-primary">受講する</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card my-3">
+                <img class="card-img-top" src="/image/card1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">1-4. テスト</h5>
+                    <p class="card-text">MECEとは“Mutually Exclusive, Collectively Exhaustive”を略したもので、『モレなくダブりなく』を意味します。</p>
+                    <a href="#" class="btn btn-success text-light">テストを受ける</a>
+                </div>
             </div>
         </div>
     </div>
+    <div class="col-lg-2">
+        <div class="card position-fixed">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+        </div>
+    </div>
 </div>
+
 @endsection
 
 

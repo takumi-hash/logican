@@ -16,13 +16,108 @@
 @section('content')
 <div class="container mx-auto my-5">
     <h2 class="text-center wf-mplus1p mb-4 gradient-border font-weight-light">ダッシュボード</h2>
-    <div class="card my-3">
-        <div class="card-header">
-            {$name}さんの学習進度
+    <div class="row my-3">
+        <div class="col-lg-8">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card my-3">
+                        <div class="card-header">
+                        Lesson 1 テストスコア
+                        </div>
+                        <div class="card-body">
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card my-3">
+                        <div class="card-header">
+                        Lesson 2 テストスコア
+                        </div>
+                        <div class="card-body">
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card my-3">
+                        <div class="card-header">
+                        Lesson 3 テストスコア
+                        </div>
+                        <div class="card-body">
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card my-3">
+                        <div class="card-header">
+                        Lesson 4 テストスコア
+                        </div>
+                        <div class="card-body">
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card my-3">
+                        <div class="card-header">
+                        Lesson 5 テストスコア
+                        </div>
+                        <div class="card-body">
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card my-3">
+                        <div class="card-header">
+                        Lesson 6 テストスコア
+                        </div>
+                        <div class="card-body">
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card-body">
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+        <div class="col-lg-4">
+            <div class="card my-3">
+                <div class="card-header">
+                    ステータス
+                </div>
+                <div class="card-body">
+                    <img class="w-50 rounded-circle d-block mx-auto mb-3" src="/image/user_icon.jpg" alt="Your profile photo">
+                    <p class="text-center">
+                        <span class="badge badge-pill badge-primary">ロジックマスター</span>
+                        <span class="badge badge-pill badge-success">Lv. 336</span>
+                    </p>
+                    <p class="display-4 wf-mplus1p text-weight-light text-center">Steve Jobs</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <div class="card my-3">
+                <div class="card-header">
+                    Steve Jobsさんの学習進度
+                </div>
+                <div class="card-body">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -31,10 +126,13 @@
             <a class="nav-link active" href="#">すべての教材</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">未完了</a>
+            <a class="nav-link" href="#">進行中</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">完了済</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">未完了</a>
         </li>
     </ul>
     <div class="row my-3">
